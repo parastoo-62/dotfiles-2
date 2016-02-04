@@ -12,3 +12,4 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'godlygeek/tabular'
 Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }

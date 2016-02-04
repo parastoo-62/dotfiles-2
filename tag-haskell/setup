@@ -4,3 +4,6 @@ set -e
 
 echo "Disabling non-sandbox cabal installs..."
 echo "require-sandbox: True" >> ~/.cabal/config
+
+echo "Installing hlint and ghc-mod..."
+stack install hlint ghc-mod
