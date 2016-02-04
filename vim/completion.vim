@@ -1,6 +1,6 @@
 " :set wildmenu enables a menu at the bottom of the vim/gvim window.
 set wildmenu
-set wildmode=list:longest,list:full
+set wildmode=longest,list,full
 
 " completeopt values (default: "menu,preview")
 " menu:    use popup menu to show possible completion
@@ -12,4 +12,4 @@ set wildmode=list:longest,list:full
 " preview: Show extra information about the currently selected completion in
 "          the preview window. Only works in combination with "menu" or
 "          "menuone".
-set completeopt=menu,menuone,longest,preview
+set completeopt+=longest
