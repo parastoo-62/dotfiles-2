@@ -26,6 +26,8 @@ call plug#end()
 call s:SourceConfigFilesIn('')
 call s:SourceConfigFilesIn('functions')
 call s:SourceConfigFilesIn('rcplugins') " after plugins load
+let g:haskellmode_completion_ghc = 1
+setlocal omnifunc=necoghc#omnifunc
 
 " Turn on syntax highlighting and filetype detection.
 " vim-plug loads all the extra syntax and ftdetect files, so turn them on after
