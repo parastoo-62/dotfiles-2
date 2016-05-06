@@ -2,6 +2,7 @@
   # Try per-repo .gitconfig instead
   name = Gabe Berke-Williams
   email = gabebw@gabebw.com
+  signingkey = B9DF44FE
 [core]
   editor = vim
   whitespace = trailing-space,cr-at-eol
@@ -75,6 +76,7 @@
   helper = osxkeychain
 [commit]
   template = ~/.git-template/gitmessage
+  gpgsign = true
 [grep]
   # http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/
   extendRegexp = true
@@ -112,3 +114,5 @@
   templatedir = ~/.git-template
 [github]
   user = gabebw
+[gpg]
+  program = gpg2
